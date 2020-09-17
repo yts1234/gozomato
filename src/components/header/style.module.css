@@ -1,0 +1,20 @@
+:root {
+    --gap: 5px;
+    --repeat: 3;
+    --post: 300px;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: var(--gap);
+    width: calc(
+    calc(var(--post) * var(--repeat)) + calc(var(--gap) * var(--repeat))
+    );
+}

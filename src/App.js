@@ -1,8 +1,10 @@
 import React from 'react';
-import YourComponentName from 'components/your-component-name';
+import Header from 'components/header';
+import Profile from 'components/instagram';
+import ApiCall from 'components/cheat-sheets/api-call';
 
 const App = () => {
-  return <YourComponentName />;
+  return <Header />;
 };
 
 export default App;

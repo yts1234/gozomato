@@ -5,7 +5,7 @@ import CitySuggestions from './city-suggestions';
 import Restaurants from './restaurants';
 
 const ApiCall = () => {
-  const cityQuery = 'bogor';
+  const cityQuery = 'Jakarta';
   const [citySuggestions, setCitySuggestions] = useState([]);
   const [restaurants, setRestaurants] = useState([]);
 
